@@ -1,7 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
-from server.app import db, Episode, Guest, Appearance
 
-db = SQLAlchemy()
 
 class Episode(db.Model):
     __tablename__ = 'episodes'
